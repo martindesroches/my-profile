@@ -1,0 +1,111 @@
+/* Colors and fonts */
+
+body {
+	background: rgb(230,230,230);
+	color: rgb(50,50,50);
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;	   
+}
+h1, h2, h3, {
+	font-family: 'Merriweather', serif;
+}
+h1 {
+	color: #0A369D;
+	font-size: 32px;
+	font-weight: 900;
+}
+h2 {
+	color: #4472CA;
+	font-size: 24px;
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Montserrat';
+	color: #F7B538;
+	font-weight: 500;
+	font-size: 20px;
+	transition: color 0,3s ease;
+}
+a:hover {
+	color: #FF7700;
+}
+
+div {
+	background: white;
+	padding: 30px;
+	border: 1px solid red;
+	border-radius: 5px;
+	box-shadow: 10px 10px 30px rgba(0,0,0,.3);
+	width: 1000px;
+	margin: 30px auto;
+}
+
+#logo {
+	width: 300px;
+	border-radius: 50%;
+}
+
+#IESEG {
+	width: 200px;
+}
+.card-white {
+	background-color: white;
+	padding: 35px;
+	text-align: center;
+	margin: 20px auto;
+	width: 1000px
+}
+#ARBITRE {
+	width: 180px;
+}
+
+@media(max-width: 760px)
+{
+	.card-white {
+		width: 600px;
+	}
+}
+
+@media(max-width: 500px)
+{
+	.card-white {
+		width: 400px;
+	}
+}
+
+.btn-center {
+	background-color: #F7B538;
+	color: white;
+	padding:  15px 20px;
+	border-radius: 4px;
+}
+
+.btn-center:hover {
+	background-color: blue;
+	color: #F7B538;
+}
+
+.list-horizontal {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i {
+	font-size: 75px;
+	color: #4472CA;
+}
+
+.list-horizontal i:hover {
+	color: red;
+}
+
+#intro p {
+	margin-bottom: 40px;
+}
